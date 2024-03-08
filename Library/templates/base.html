@@ -22,6 +22,11 @@
 
 <body dir="rtl" class="hold-transition sidebar-mini">
 
+ <!-- Navigation bar -->
+ {% include 'parts/nav.html' %}
+
+<!-- Sidebar -->
+{% include 'parts/sidebar.html' %}
 
 
 
@@ -37,7 +42,8 @@
 
 
 
-
+<!-- Footer -->
+{% include 'parts/footer.html' %}
 <!-- REQUIRED SCRIPTS --> 
 <script src="{% static 'plugins/jquery_datepacker/jquery_ui.js'%}"></script>
 
